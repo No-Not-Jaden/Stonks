@@ -11,6 +11,11 @@ public class AIConsumer {
         this.buyPercent = buyPercent;
         this.sellPercent = sellPercent;
     }
+
+    public double getWage() {
+        return wage;
+    }
+
     public void update(){
         cash += wage;
     }
